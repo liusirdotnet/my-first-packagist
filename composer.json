@@ -1,0 +1,20 @@
+{
+    "name": "liusirdotnet/my-first-packagist",
+    "description": "This is a test package",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liusirdotnet",
+            "email": "17611592337@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src/"
+        }
+    }
+}
